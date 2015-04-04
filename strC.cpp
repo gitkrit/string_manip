@@ -2,7 +2,7 @@
 
 using namespace std;
 
-string reverse(string S) {]
+string reverse(string S) {
     int l =S.size() - 1;
 	for(int i = 0;i<l;i++) {
 	   swap(S[i],S[l--]);
